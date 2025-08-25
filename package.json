@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Aryan444Bits.github.io/React-ToDo-App/",
   "name": "lec78",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "deploy":"gh-pages -d dist",
+    "predeploy":"npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
